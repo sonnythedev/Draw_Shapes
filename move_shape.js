@@ -63,7 +63,7 @@ let widthOptions=generateOptions(300);
 let heightOptions=generateOptions(300);
 let rgbOptions=generateRGBOptions();
 
-let heightSelect='<select id="shapHeight">'+heightOptions+'</select>';
+let heightSelect='<select id="shapeHeight">'+heightOptions+'</select>';
 
 document.addEventListener("DOMContentLoaded", function(event) { 
     document.querySelector('#heightHolder').innerHTML=heightSelect;
